@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOOHAA - Hoorals portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Geo:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <img src="ribbonbunny.png"> 
+            <span>NOOHAA</span>
+        </a>
+        <nav>
+            <ul class="nav-links">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Hooral Een</span></h1>
+            <p>⋆ˎˊ˗ An IT student whos is doing there best to not explode˗ˏˋ ⋆<p>
+            <h2>Welcome to my portfolio!</h2>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+
+
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="content-box">
+            <p>A scholar who is modest in her efforts to keep up with all there is to know, a goal which, at most, is merely aspirational. My strengths are strategic procrastination, the ability to display last-minute brilliance comparable to that of a pigeon, and the habit of saying "I shall start early this time". <br>I turn up, I give it a go, and I do so with excellent comedic timing</p>
+        </div>
+    </section>
+
+
+
+    <section id="skills" class="section alt-bg">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>HTML5</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>CSS3</span>
+                    <div class="progress-bar"><div class="progress" style="width: 45%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 25%;"></div></div>
+                </div>
+                
+            </div>
+            
+            <div class="skill-box">
+                <h3>Education</h3>
+                <ul class="soft-skills-list">
+                    <li>O-Level</li>
+                    <li>A-Level</li>
+                    <li>CAE C2</li>
+                    <li>C3 in IT</li>
+                    <li>C4 in IT</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Skills</h3>
+                <ul class="soft-skills-list">
+                    <li>Problem Solving</li>
+                    <li>Creative Thinking</li>
+                    <li>Fast Learner</li>
+                    <li>Time Management</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- 1 -->
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>My first calculator that works and looks like a actual calculator</p>
+                <p class="tech-used"><strong>Tech:</strong> HTML, CSS, JS</p>
+                <a href="https://yillinglauzuo.github.io/Calculator/" class="btn-small" target="_blank">Live Demo</a>
+            </div>
+            <!-- 2 -->
+            <div class="project-card">
+                <h3>To Do List</h3>
+                <p>A simple to do list application for managing daily tasks.</p>
+                <p class="tech-used"><strong>Tech:</strong> HTML, CSS, JS</p>
+                <a href="https://yillinglauzuo.github.io/To-Do-List/" class="btn-small" target="_blank">Live Demo</a>
+            </div>
+            <!-- 3 --> 
+            <div class="project-card">
+                <h3>CountYourDays</h3>
+                <p>Simple countdown tracker for important dates.</p>
+                <p class="tech-used"><strong>Tech:</strong> HTML, CSS, JS</p>
+                <a href="https://yillinglauzuo.github.io/CountYourDays/" class="btn-small" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="contact" class="section alt-bg">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+                <p id="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2026 NOOHAA. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/yillinglauzuo" target="_blank">GitHub</a> |
+            <a href="https://t.me/Yiller" target="_blank">Telegram</a> |
+            <a href="https://www.instagram.com/noohaaredribbon/" target="_blank">Instagram</a> |
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yillermakes@gmail.com" target="_blank" style="color: white; margin: 0 10px;">yillermakes@gmail.com</a>
+|
+        </div>
+    </footer>
+
+
+    <!-- JS --> 
+    <div id="custom-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="document.getElementById('custom-popup').style.display='none'">&times;</span>
+            <h3>Message Sent!</h3>
+            <p id="popup-text">Thank you! Your message has been sent.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
